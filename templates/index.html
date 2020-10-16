@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>House Price Prediction</title>
+</head>
+<body>
+<form method="post", action="/form">
+
+	<div style="width:800px; margin:0 auto;">
+		<h1>House Price Prediction</h1>
+		<div class="custom-select" style="width:200px;">
+				Select Region:
+			  <select name='region' required>
+			    <option value="">Select Region</option>
+			    <option value="jacksonville">jacksonville</option>
+			    <option value="birmingham">birmingham</option>
+			    <option value="dothan">dothan</option>
+			    <option value="mobile">mobile</option>
+			    <option value="montgomery">montgomery</option>
+			    <option value="bakersfield">bakersfield</option>
+			    <option value="jonesboro">jonesboro</option>
+			    <option value="sierra vista">sierra vista</option>
+			    <option value="rochester">rochester</option>
+			    <option value="fayetteville">fayetteville</option>
+			    <option value="omaha / council bluffs ">omaha / council bluffs </option>
+			    <option value="denver">denver</option>
+			  </select>
+			</div> <br>
+			
+			<div class="custom-select" style="width:200px;">
+				House type:
+			  <select name='house_type' required="">
+			    <option value="">Select House Type</option>
+			    <option value="apartment">apartment</option>
+			    <option value="house">house</option>
+			    <option value="townhouse ">townhouse </option>
+			    <option value="condo">condo</option>
+			    <option value="duplex">duplex</option>
+			    <option value="manufactured">manufactured</option>
+			    
+			  </select>
+			</div> <br>
+
+			Square Feet:
+			<input type="number" name="square_feet" required=""> <br><br>
+
+			Number of Beds:
+			<input type="number" name="bed" required=""> <br><br>
+
+			Number of Bathroom:
+			<input type="number" name="bathroom" required=""> <br><br>
+
+
+			Cats allowed: <br>
+			<label for="yes">Yes</label>
+			<input type="radio" id="yes" name="cats" value="1"> <br>
+			<label for="no">No</label>
+			<input type="radio" id="no" name="cats" value="0" checked="">	<br> <br>
+
+			Dogs allowed: <br>
+			<label for="dog_yes">Yes</label>
+			<input type="radio" id="dog_yes" name="dogs" value="1"> <br>
+			<label for="dog_no">No</label>
+			<input type="radio" id="dog_no" name="dogs" value="0" checked="">	<br><br>
+
+			Smoking allowed: <br>
+			<label for="smoke_yes">Yes</label>
+			<input type="radio" id="smoke_yes" name="smoking" value="1"> <br>
+			<label for="smoke_no">No</label>
+			<input type="radio" id="smoke_no" name="smoking" value="0" checked="">	<br><br>
+
+			WheelChair Access: <br>
+			<label for="wheel_yes">Yes</label>
+			<input type="radio" id="wheel_yes" name="wheelchair" value="1"> <br>
+			<label for="wheel_no">No</label>
+			<input type="radio" id="wheel_no" name="wheelchair" value="0" checked="">	<br><br>
+
+			Electric Vehicle Charge: <br>
+			<label for="electric_yes">Yes</label>
+			<input type="radio" id="electric_yes" name="electric" value="1"> <br>
+			<label for="electric_no">No</label>
+			<input type="radio" id="electric_no" name="electric" value="0" checked="">	<br><br>
+
+
+			Comes Furnishd: <br>
+			<label for="furnished_yes">Yes</label>
+			<input type="radio" id="furnished_yes" name="furnished" value="1"> <br>
+			<label for="furnished_no">No</label>
+			<input type="radio" id="furnished_no" name="furnished" value="0" checked="">	<br><br>
+
+
+			<div class="custom-select" style="width:200px;">
+				Laundry Options:
+			  <select name='laundry' required="">
+			    <option value="">Select Laundry</option>
+			    <option value="w/d in unit">w/d in unit</option>
+			    <option value="w/d hookups">w/d hookups</option>
+			    <option value="laundry on site ">laundry on site  </option>
+			    <option value="laundry in bldg">laundry in bldg</option>
+			    <option value="no laundry on site">no laundry on site</option>
+			    
+			  </select>
+			</div> <br>
+
+
+			<div class="custom-select" style="width:200px;">
+				Parking Options:
+			  <select name='parking' required="">
+			    <option value="">Select Parking</option>
+			    <option value="off-street parking">off-street parking</option>
+			    <option value="carport">carport</option>
+			    <option value="attached garage">attached garage</option>
+			    <option value="detached garage">detached garage </option>
+			    <option value="street parking ">street parking </option>
+			    <option value="no parking">no parking </option>
+			    <option value="valet parking">valet parking </option>
+			    
+			  </select>
+			</div> <br>
+
+			Lalitude(optional):
+			<input type="number" name="latitude"> <br><br>
+
+			Longitude(optional):
+			<input type="number" name="longitude"> <br><br>
+
+			<div class="custom-select" style="width:200px;">
+				State Options:
+			  <select name='state' required="">
+			    <option value="">Select State</option>
+			    <option value="ca">ca</option>
+			    <option value="fl">fl</option>
+			    <option value="nc">nc</option>
+			    <option value="mi">mi </option>
+			    <option value="ga">ga </option>
+			    <option value="co">co </option>
+			    <option value="ny">ny </option>
+			    <option value="il">il </option>
+			    <option value="ks">ks </option>
+			    
+			  </select>
+			</div> <br>
+
+	    
+	    
+	    
+	    <input type="submit" name='submit'>
+    </div>
+</form>
+
+<style>
+input[type=number]{
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
