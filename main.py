@@ -66,7 +66,7 @@ def form_post(request: Request,region: str = Form(...),house_type: str = Form(..
 
 
 if __name__ == '__main__':
-	uvicorn.run(app)
+	uvicorn.run(app.listen(port=5000))
 
 
 
