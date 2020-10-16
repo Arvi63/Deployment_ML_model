@@ -1,0 +1,299 @@
+region,region_median
+SF bay area,2748.0
+akron / canton,825.0
+albany,925.0
+albuquerque,816.0
+ames,707.5
+anchorage / mat-su,1050.0
+ann arbor,1179.0
+annapolis,1576.0
+asheville,1184.5
+ashtabula,850.0
+athens,960.0
+atlanta,1196.0
+augusta,895.0
+bakersfield,1045.0
+baltimore,1301.0
+baton rouge,869.0
+battle creek,845.0
+bemidji,900.0
+bend,1590.0
+billings,890.0
+binghamton,795.0
+birmingham,925.0
+bismarck,985.0
+bloomington,800.0
+bloomington-normal,625.0
+boise,1190.0
+boone,1000.0
+boston,2239.0
+boulder,1640.0
+bowling green,900.0
+bozeman,1525.0
+brainerd,960.0
+brunswick,1073.0
+buffalo,900.0
+butte,800.0
+cape cod / islands,1675.0
+catskills,1050.0
+cedar rapids,875.0
+central NJ,1800.0
+central louisiana,710.0
+central michigan,865.0
+champaign urbana,699.5
+charlotte,1089.0
+chautauqua,750.0
+chicago,1500.0
+chico,1350.0
+chillicothe,825.0
+cincinnati,895.0
+cleveland,890.0
+clovis / portales,1019.0
+colorado springs,1225.0
+columbia / jeff city,638.0
+columbus,738.0
+corvallis/albany,1045.0
+cumberland valley,1331.0
+dayton / springfield,739.0
+daytona beach,1005.0
+decatur,631.0
+delaware,1234.0
+denver,1530.0
+des moines,913.0
+detroit metro,955.0
+dothan,710.0
+dubuque,795.0
+duluth / superior,1095.0
+east idaho,914.0
+east oregon,875.0
+eastern CO,1582.0
+eastern CT,1100.0
+eastern NC,815.0
+eastern kentucky,800.0
+eastern montana,1143.0
+eastern shore,899.0
+elko,1235.0
+elmira-corning,823.0
+eugene,1315.0
+evansville,889.0
+fairbanks,1200.0
+fargo / moorhead,777.5
+farmington,985.0
+fayetteville,830.0
+finger lakes,898.5
+flagstaff / sedona,1399.0
+flint,833.5
+florence / muscle shoals,650.0
+florida keys,2470.0
+fort collins / north CO,1341.0
+fort dodge,697.0
+fort smith,850.0
+fort wayne,800.0
+frederick,1337.0
+fresno / madera,1249.0
+ft myers / SW florida,1255.0
+gadsden-anniston,825.0
+gainesville,999.0
+glens falls,1149.0
+gold country,1650.0
+grand forks,876.0
+grand island,850.0
+grand rapids,985.0
+great falls,850.0
+greensboro,825.0
+gulfport / biloxi,785.0
+hanford-corcoran,1145.0
+hartford,1250.0
+hattiesburg,882.0
+hawaii,1875.0
+heartland florida,909.0
+helena,1100.0
+hickory / lenoir,762.5
+high rockies,2075.0
+holland,930.0
+houma,819.0
+hudson valley,1577.0
+humboldt county,1325.0
+huntington-ashland,795.0
+huntsville / decatur,850.0
+imperial county,822.0
+indianapolis,859.0
+inland empire,1675.0
+iowa city,999.0
+ithaca,1395.0
+jackson,775.0
+jacksonville,935.0
+jersey shore,1800.0
+jonesboro,775.0
+joplin,795.0
+kalamazoo,915.0
+kalispell,1400.0
+kansas city,852.0
+"kansas city, MO",812.0
+kenai peninsula,950.0
+kirksville,595.0
+kokomo,650.0
+la salle co,885.0
+lafayette,810.0
+lafayette / west lafayette,825.0
+lake charles,910.0
+lake of the ozarks,869.0
+lakeland,1009.0
+lansing,945.0
+las cruces,700.0
+las vegas,1045.0
+lawrence,725.0
+lawton,644.5
+lewiston / clarkston,655.0
+lexington,799.0
+lima / findlay,737.5
+lincoln,925.0
+little rock,745.0
+long island,2400.0
+los angeles,2275.0
+louisville,850.0
+macon / warner robins,675.0
+maine,1360.0
+manhattan,795.0
+mankato,942.5
+mansfield,580.0
+mason city,650.0
+mattoon-charleston,592.5
+medford-ashland,1324.5
+mendocino county,1500.0
+merced,1125.0
+meridian,599.0
+minneapolis / st paul,1383.0
+missoula,995.0
+mobile,845.5
+modesto,1500.0
+mohave county,805.0
+monroe,815.0
+monterey bay,2030.0
+montgomery,650.0
+muncie / anderson,672.0
+muskegon,849.0
+new hampshire,1610.0
+new haven,1330.0
+new orleans,1065.0
+new york city,2400.0
+north central FL,900.0
+north dakota,935.0
+north jersey,2000.0
+north mississippi,769.0
+north platte,1140.0
+northern michigan,1025.0
+northern panhandle,675.0
+northwest CT,1900.0
+northwest GA,918.0
+northwest KS,755.0
+northwest OK,402.5
+ocala,883.0
+okaloosa / walton,1300.0
+oklahoma city,699.0
+omaha / council bluffs,891.0
+oneonta,975.0
+orange county,2055.0
+oregon coast,1000.0
+orlando,1270.0
+outer banks,1129.5
+owensboro,800.0
+palm springs,1450.0
+panama city,1240.0
+parkersburg-marietta,850.0
+pensacola,975.0
+peoria,739.0
+phoenix,1175.0
+plattsburgh-adirondacks,1000.0
+port huron,899.0
+portland,1566.5
+potsdam-canton-massena,299.0
+prescott,1350.0
+pueblo,999.5
+pullman / moscow,912.0
+"quad cities, IA/IL",850.0
+raleigh / durham / CH,1060.0
+redding,1200.0
+reno / tahoe,1349.0
+richmond,729.0
+rochester,1050.0
+rockford,700.0
+roswell / carlsbad,1500.0
+sacramento,1525.0
+saginaw-midland-baycity,805.0
+salina,800.0
+san diego,2055.0
+san luis obispo,2150.0
+santa barbara,3000.0
+santa fe / taos,1315.0
+santa maria,1795.0
+sarasota-bradenton,1278.0
+savannah / hinesville,999.0
+scottsbluff / panhandle,1449.0
+show low,750.0
+shreveport,726.5
+sierra vista,699.0
+sioux city,825.0
+siskiyou county,848.0
+south bend / michiana,840.0
+south coast,1525.0
+south florida,1795.0
+south jersey,1400.0
+southeast IA,642.0
+southeast KS,500.0
+southeast alaska,1375.0
+southeast missouri,675.0
+southern illinois,599.5
+southern maryland,1365.0
+southwest KS,435.0
+southwest MN,550.0
+southwest MS,729.0
+southwest michigan,829.0
+space coast,1098.0
+spokane / coeur d'alene,1075.0
+springfield,720.0
+st augustine,1000.0
+st cloud,1045.0
+st joseph,805.0
+st louis,1000.0
+"st louis, MO",850.0
+statesboro,942.5
+stillwater,437.5
+stockton,1450.0
+susanville,919.0
+syracuse,950.0
+tallahassee,950.0
+tampa bay area,1185.0
+terre haute,652.5
+texarkana,820.0
+texoma,725.0
+the thumb,700.0
+toledo,695.0
+topeka,665.0
+treasure coast,1365.0
+tucson,815.0
+tulsa,759.0
+tuscaloosa,850.0
+tuscarawas co,800.0
+twin falls,900.0
+twin tiers NY/PA,690.0
+upper peninsula,700.0
+utica-rome-oneida,812.5
+valdosta,759.0
+ventura county,2220.0
+visalia-tulare,1300.0
+"washington, DC",1725.0
+waterloo / cedar falls,700.0
+watertown,975.0
+western IL,786.0
+western KY,700.0
+western maryland,1058.0
+western massachusetts,1167.0
+western slope,1160.0
+wichita,575.0
+wilmington,1073.5
+winston-salem,795.0
+worcester / central MA,1602.5
+yuba-sutter,1500.0
+yuma,795.0
+zanesville / cambridge,800.0
