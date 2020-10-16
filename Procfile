@@ -1,1 +1,1 @@
-worker uvicorn main:app(port:5000)
+web uvicorn main:app()
