@@ -23,7 +23,6 @@ def state_median_fun(state):
 def house(data):
 	house_type = {
 		'apartment' :0,
-		'assisted living' :0,
 		'condo' : 0,
 		'cottage/cabin' : 0,
 		'duplex' :0,
