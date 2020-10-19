@@ -14,6 +14,7 @@
     Evaluation : The evaluation metric used is R^2 . R^2 value ranges to maximum of 1, so it is easy to interpret. If R^2 value is 0, then the model is as simple average model(model which gives only mean value for every input), less than 0 is worst than mean model and 1 represents the best model.
     
     There are comments in all portion of code so following the code wont be difficult.
+    
     Note: For deploying I have used the Linear Regression model though other performed better as this model has lowest model size.
     
 3. Deployment
@@ -22,3 +23,8 @@
 
   You can access the deployed application from this link: https://house-rent-pred.herokuapp.com/
 
+
+# Resources
+For Fastapi  :   https://amitness.com/2020/06/fastapi-vs-flask/
+For Regression EDA : https://blog.exploratory.io/a-practical-guide-of-exploratory-data-analysis-with-linear-regression-part-1-9f3a182d7a92
+For deployment :  
