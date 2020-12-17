@@ -19,7 +19,9 @@
     **Note**: For deploying I have used the Linear Regression model though other performed better as this model has lowest model size.
     
 3. Deployment
+
       Deployment is done using Fastapi in Heroku
+      
       Heroku gives limited free cloud space ,so it one of the best platform to start for begineers. And it is very simple to use as well.
 
   You can access the deployed application from this link: https://house-rent-pred.herokuapp.com/
